@@ -19,7 +19,6 @@ public class Add {
                 var a = coll.get(s).toArray();
                 for (int i = 0; i < a.length; i++) {
                     sum = sum+(Integer) a[i];
-                    System.out.println(sum);
                 }
 
             }

@@ -23,7 +23,7 @@ public class Add {
                 res.put(s,sum);
             }
         }
-        System.out.println(res);
+        System.out.println("Преобразовано в "+res);
         return res;
     }
 }

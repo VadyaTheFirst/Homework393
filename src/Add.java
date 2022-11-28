@@ -10,7 +10,7 @@ public class Add {
         }
     }
 
-    public static Map<String,Integer>addSum(HashMap<String,ArrayList<Integer>>  coll){
+    public static Map<String,Integer>intoSum(HashMap<String,ArrayList<Integer>>  coll){
         Map<String,Integer> res=new HashMap<>();
 
         for (String s : coll.keySet()) {
@@ -24,7 +24,7 @@ public class Add {
             }
             res.put(s,sum);
         }
-        System.out.println("Преобразовано в "+res);
+
         return res;
     }
 }

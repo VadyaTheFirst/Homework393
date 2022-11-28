@@ -16,7 +16,7 @@ public class Main {
         Add.addNumber(arr1);
         items.put("t",arr1);
         System.out.println(items);
-        Add.addSum((HashMap<String, ArrayList<Integer>>) items);
+        System.out.println("Преобразовано в "+Add.intoSum((HashMap<String, ArrayList<Integer>>) items));
 
     }
 }

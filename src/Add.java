@@ -14,14 +14,16 @@ public class Add {
         Map<String,Integer> res=new HashMap<>();
 
         for (String s : coll.keySet()) {
-            for (ArrayList<Integer> value : coll.values()) {
-                var a = value.toArray();
-                Integer sum = 0;
+            Integer sum = 0;{
+
+                var a = coll.get(s).toArray();
                 for (int i = 0; i < a.length; i++) {
                     sum = sum+(Integer) a[i];
+                    System.out.println(sum);
                 }
-                res.put(s,sum);
+
             }
+            res.put(s,sum);
         }
         System.out.println("Преобразовано в "+res);
         return res;

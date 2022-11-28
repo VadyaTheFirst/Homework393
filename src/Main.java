@@ -11,6 +11,10 @@ public class Main {
         Add.addNumber(arr);
         Map<String,ArrayList<Integer>> items=new HashMap<>();
         items.put("k",arr);
+
+        ArrayList<Integer> arr1=new ArrayList<>(3);
+        Add.addNumber(arr1);
+        items.put("t",arr1);
         System.out.println(items);
         Add.addSum((HashMap<String, ArrayList<Integer>>) items);
 
